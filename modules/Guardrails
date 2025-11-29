@@ -1,0 +1,5 @@
+Module 3: Guardrails
+- Enforce PS2 constraints strictly.
+- Prevent hallucinations or invented claims.
+- Handle missing/empty/short sections explicitly.
+- Apply chunking and synthesis for long papers.
