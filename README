@@ -1,0 +1,19 @@
+# Research Paper Summarizer
+
+## Overview
+A structured prompt package for generating academically neutral summaries of research papers. It enforces strict boundaries: no hallucinations, no invented citations, and explicit reporting of missing or short sections.
+
+## Features
+- Paper Summary (≤500 words)
+- Section-by-Section Summaries (≤200 words each)
+- Expert & Lay Summaries
+- Mini-Glossary
+- Checks & Warnings
+
+## Input
+- Full text of each section  
+- Ordered list of section titles  
+- Intended audience (expert or general)
+
+## Output
+Markdown summaries, overall paper summary, glossary, and warnings per PS2 specification.
