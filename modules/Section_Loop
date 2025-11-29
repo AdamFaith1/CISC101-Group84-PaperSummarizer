@@ -1,5 +1,29 @@
-Module 2: Section Loop
-- Iterate through each section.
-- Summarize content in <200 words.
-- Maintain academic tone, avoid interpretation.
-- Store summaries in structured objects for rendering.
+For each section:
+
+1. Use the section text only.  
+2. Follow the usual summary rules (<200 words, academic tone, no interpretation).  
+
+3. Apply summary_level:
+
+   - If summary_level = "short":
+     - Produce a 1–2 sentence summary.
+
+   - If summary_level = "detailed":
+     - Produce a short paragraph summary.
+     - Add a bullet list of 3–5 key points taken directly from the section text.
+
+4. If the section is marked missing or empty by Module 03:
+   - Skip normal summarization.
+   - Output only the warning from Module 03.
+
+5. If the section is marked “very short” (<50 words):
+   - Produce the summary as usual.
+   - Also include the warning from Module 03.
+
+Output:
+
+Each section produces:
+- section_title  
+- summary text (short or detailed mode)  
+- bullet list only if summary_level = "detailed"  
+- any warnings from Module 03  
