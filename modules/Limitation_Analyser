@@ -1,0 +1,5 @@
+Module 5: Limitation Analyzer
+- Purpose: Highlight limitations or gaps explicitly mentioned in the paper. Rules:
+- Only report limitations stated in the text.
+- No speculation or external inference.
+- Flag absence of limitations if none are provided. Workflow Fit: Runs after Section Loop, feeds into Checks and Warnings to ensure completeness.
