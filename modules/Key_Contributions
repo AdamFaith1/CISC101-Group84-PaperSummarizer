@@ -1,0 +1,5 @@
+Module 4: Key Contributions Summarizer
+- Purpose: Identify and restate the paper’s main contributions in concise academic language. Rules:
+- Extract only from provided text.
+- No interpretation or extrapolation.
+- Fit within <200 words. Workflow Fit: Runs after Section Loop, synthesizes contributions into a standalone structured note for expert readers.
